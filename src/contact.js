@@ -11,10 +11,6 @@ import jsPDF from 'jspdf';
 import axios from 'axios'
 
 
-
-
-
-
 class Contact extends Component {
   constructor() {
           super();
