@@ -1,9 +1,9 @@
 import React from 'react';
 import {Grid,Cell } from 'react-mdl';
 import Image1 from './assets/Image1.jpg';
-import HKPresume from '.assets/HKPresume.jpg'
+import HKPresume from './assets/HKPresume.jpg'
 import Springprac from './springprac';
-import{FaLinkedinIn,FaEnvelopeOpen,FaFile} from 'react-icons/fa'
+import{FaLinkedinIn,FaEnvelopeOpen} from 'react-icons/fa'
 
 
 
@@ -31,7 +31,7 @@ class Main extends React.Component {
                             <hr/>
                              <p> HTML | CSS | PYTHON-Flask | REACT JS | JAVASCRIPT | POSTGRES 
                                  <br/><br/>
-                                 <FaLinkedinIn onClick={this.openLinkedIn}/> | <FaEnvelopeOpen onClick={this.openEmail}/> | <FaFile onClick={this.openImage}/>
+                                 <FaLinkedinIn onClick={this.openLinkedIn}/> | <FaEnvelopeOpen onClick={this.openEmail}/> 
                             </p>
                                            
                         </div>
@@ -41,4 +41,4 @@ class Main extends React.Component {
         );
     }
 } 
-export default Main;
+export default Main
