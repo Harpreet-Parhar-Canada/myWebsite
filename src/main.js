@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid,Cell } from 'react-mdl';
 import Image1 from './assets/Image1.jpg';
+import HKPresume from '.assets/HKPresume.jpg'
 import Springprac from './springprac';
 import{FaLinkedinIn,FaEnvelopeOpen,FaFile} from 'react-icons/fa'
 
@@ -15,7 +16,7 @@ class Main extends React.Component {
         window.location.href = "mailto:parhar994@gmail.com";
       }
       openImage() {
-        window.location.href = Image1;
+        window.location.href = HKPresume;
       }
       
     render() {
