@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid,Cell,List } from 'react-mdl';
+import {Grid,Cell } from 'react-mdl';
 
 class About extends React.Component {
     render() {
@@ -32,21 +32,17 @@ class About extends React.Component {
                                           <p> Pair Programming</p>
                                           <p>  Agile development </p>
                                           <p>  Detail and goal-oriented </p>
-          </Cell>
+          </Cell></Grid>
           <div className=" animated fadeIn delay-5s duration-10s"> 
                                     <h1>Interest</h1>
-                                    <p className="aboutp">
-<iframe src="https://giphy.com/embed/xT9DPzhNGA8MKjxwFG" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Reading">Reading</iframe> 
-<iframe src="https://giphy.com/embed/lqSDx8SI1916ysr4eq" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Music">Music</iframe>
-<iframe src="https://giphy.com/embed/b5Hcaz7EPz26I" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Cooking">Cooking</iframe></p>
+                                    <div className="aboutp">
+<iframe src="https://giphy.com/embed/xT9DPzhNGA8MKjxwFG" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Reading"></iframe> <h6>Reading</h6><iframe src="https://giphy.com/embed/lqSDx8SI1916ysr4eq" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Music"></iframe><h6>Music</h6><iframe src="https://giphy.com/embed/b5Hcaz7EPz26I" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Cooking"></iframe><h6>Cooking</h6></div>
                                    
                                    
                                    
-                                    <p> Reading  &nbsp;&nbsp;&nbsp;&nbsp;    Listening to music  &nbsp;&nbsp;&nbsp;&nbsp;  Cooking </p>
+                                   
                                     
-                                    </div>
-          </Grid>
-                                    
+                                    </div>       
                                      
                                      
                                 
