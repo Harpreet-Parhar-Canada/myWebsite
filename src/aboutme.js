@@ -36,7 +36,9 @@ class About extends React.Component {
           <div className=" animated fadeIn delay-5s duration-10s"> 
                                     <h1>Interest</h1>
                                     <p className="aboutp">
-<iframe src="https://giphy.com/embed/xT9DPzhNGA8MKjxwFG" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Reading"></iframe> <iframe src="https://giphy.com/embed/lqSDx8SI1916ysr4eq" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Music"></iframe><iframe src="https://giphy.com/embed/b5Hcaz7EPz26I" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Cooking"></iframe></p></div>       
+<iframe src="https://giphy.com/embed/xT9DPzhNGA8MKjxwFG" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Reading"></iframe> <iframe src="https://giphy.com/embed/lqSDx8SI1916ysr4eq" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Music"></iframe><iframe src="https://giphy.com/embed/b5Hcaz7EPz26I" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Cooking"></iframe>
+<iframe src="https://giphy.com/embed/12W5Sg2koWYnwA" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</p></div>       
                                        </Grid>
          
                                      
