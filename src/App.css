@@ -55,7 +55,7 @@ background: linear-gradient(to left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Fi
 }
 .aboutp{
 flex-direction:column;
-flex-wrap: wrap;
+text-align: center;
 
 }
 .aboutp1 {
