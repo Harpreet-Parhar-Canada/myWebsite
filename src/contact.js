@@ -4,9 +4,7 @@ import Image0 from './assets/Image0.jpg';
 import './App.css';
 import Particles from 'react-particles-js';
 import Radium from 'radium';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone ,faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import{FaDownload} from 'react-icons/fa'
+import{FaDownload,FaEnvelope,FaPhone} from 'react-icons/fa';
 import jsPDF from 'jspdf';
 import axios from 'axios'
 
@@ -89,7 +87,7 @@ class Contact extends Component {
                 <ListItem >
                 
                   <ListItemContent style={{fontSize: '15px',margin:'auto',fontWeight:'bold'}}>
-                  <FontAwesomeIcon icon={faPhone} className="iconColor animated swing delay-1s duration-60s"/>-(587)-438-8046
+                  <FaPhone className="iconColor animated swing delay-1s duration-60s"/>-(587)-438-8046
                   </ListItemContent>
                   
                 </ListItem>
@@ -97,7 +95,7 @@ class Contact extends Component {
                 <ListItem>
                
                   <ListItemContent style={{margin:'auto',fontSize: '15px',width:'50%',fontWeight:'bold'}}>
-                  <FontAwesomeIcon icon={faEnvelope} className="iconColor animated heartBeat delay-3s duration-60s" onClick={this.mailTo}/>-parhar994@gmail.com
+                  <FaEnvelope className="iconColor animated heartBeat delay-3s duration-60s" onClick={this.mailTo}/>-parhar994@gmail.com
                   </ListItemContent>
                   
                 </ListItem>
