@@ -54,8 +54,15 @@ background: linear-gradient(to left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Fi
   
 }
 .aboutp{
-flex-direction:column;
+min-width: auto;
+min-height: auto;
+text-align: center;
+margin:auto;
 }
+.aboutgrid {
+  justify-content: center;
+ }
+ 
 .aboutp1 {
   margin-left: 10%;
   margin-right: 10%;
