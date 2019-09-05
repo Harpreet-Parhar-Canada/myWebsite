@@ -18,7 +18,7 @@ class Contact extends Component {
           
   }
   componentDidMount() {
-    axios('http://myresumedata.us-east-1.elasticbeanstalk.com/')
+    axios('https://myresumedata.us-east-1.elasticbeanstalk.com/')
     .then(res =>{
       this.setState({imgData:res.data});
        return (res.data);})
