@@ -6,7 +6,9 @@ import Particles from 'react-particles-js';
 import Radium from 'radium';
 import{FaDownload,FaEnvelope,FaPhone} from 'react-icons/fa';
 import jsPDF from 'jspdf';
-import axios from 'axios'
+import axios from 'axios';
+
+
 
 
 class Contact extends Component {
@@ -18,11 +20,13 @@ class Contact extends Component {
           
   }
   componentDidMount() {
-    axios.get('https://my-resume-image-data.herokuapp.com/')
+  axios.get('http://myresumedata.us-east-1.elasticbeanstalk.com/')
     .then(res =>{
       this.setState({imgData:res.data});
        return (res.data);})
     .catch(err =>{console.log(err)});
+
+
     // fetch('http://18.206.100.169/')
     // .then(response => response.json())
     // .then(data => {
@@ -33,9 +37,10 @@ class Contact extends Component {
   }
   downloadFile() {
    
-
+ 
    this.imageDataBig=this.state.imgData;
    const Image= this.imageDataBig;
+   console.log(Image);
     const pdf = new jsPDF();
     pdf.addImage(Image,'jpg', 0, 0,200,300);
     pdf.save('hKPB.pdf');
