@@ -18,7 +18,7 @@ class Contact extends Component {
           
   }
   componentDidMount() {
-    axios('https://my-resume-image-data.herokuapp.com/')
+    axios.get('http://myresumedata.us-east-1.elasticbeanstalk.com/')
     .then(res =>{
       this.setState({imgData:res.data});
        return (res.data);})
