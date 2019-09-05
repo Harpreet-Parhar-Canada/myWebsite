@@ -6,13 +6,13 @@ import './App.css';
 import "animate.css";
 
 class App extends React.Component {
-//    componentDidMount () {
-//     fetch('http://myresumedata.us-east-1.elasticbeanstalk.com/')
-//     .then(response => response.json())
-//     .then(data => { // Prints result from `response.json()` in getRequest
-//     })
-//     .catch(error => console.error(error))
-//    }
+   componentDidMount () {
+    fetch('https://my-resume-image-data.herokuapp.com/')
+    .then(response => response.json())
+    .then(data => { // Prints result from `response.json()` in getRequest
+    })
+    .catch(error => console.error(error))
+   }
     
 render() {
   return (
