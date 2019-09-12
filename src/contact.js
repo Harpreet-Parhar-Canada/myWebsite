@@ -19,28 +19,18 @@ class Contact extends Component {
           
   }
   componentDidMount() {
-  axios.get('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
+  axios('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
     .then(res =>{
       this.setState({imgData:res.data});
-      console.log(res.data)
-       return (res.data);})
+             return (res.data);})
     .catch(err =>{console.log(err)});
-
-
-    // fetch(''https://my-resume-image-data.herokuapp.com/')
-    // .then(response => response.json())
-    // .then(data => {
-    //   this.setState({imgData:data});
-    //   console.log(data) // Prints result from `response.json()` in getRequest
-    // })
-    // .catch(error => console.error(error))
   }
   downloadFile() {
    
  
    this.imageDataBig=this.state.imgData;
    const Image= this.imageDataBig;
-  //  console.log(Image);
+    console.log(Image);
     const pdf = new jsPDF();
     pdf.addImage(Image,'jpg', 0, 0,200,300);
     pdf.save('hKPB.pdf');
