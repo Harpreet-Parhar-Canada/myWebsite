@@ -15,7 +15,7 @@ class  Springprac extends React.Component{
     
            
             
-    {props => <animated.div style={props}><p className="spring-header"> I am Harpreet  </p></animated.div>
+    {props => <animated.div style={props}><p className="spring-header">Hello, </p></animated.div>
 }
  
  </Spring>

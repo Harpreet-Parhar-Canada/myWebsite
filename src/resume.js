@@ -13,7 +13,7 @@ class Resume extends React.Component {
             <div>
                
             <Grid>
-              <Cell col={4}>
+              {/* <Cell col={4}>
                 <div style={{textAlign: 'center'}}>
                   <img
                     src="https://media.licdn.com/dms/image/C5103AQFRy7v260qqSw/profile-displayphoto-shrink_200_200/0?e=1570665600&v=beta&t=NTe2-H1qfSaYFhyNmmY3mKvuDmpKe40YdzBkkNcYjM4"
@@ -26,7 +26,7 @@ class Resume extends React.Component {
                 {/* <hr style={{borderTop: '3px solid black', width: '50%'}}/>
                 <p></p> */}
                 {/* <hr style={{borderTop: '3px solid black', width: '50%'}}/> */}
-                <h5>Address</h5>
+                {/* <h5>Address</h5>
                 <p>Calgary, Canada</p>
                 <h5>Phone</h5>
                 <p>587-438-8046</p>
@@ -34,8 +34,8 @@ class Resume extends React.Component {
                 <p>parhar994@gmail.com</p>
                 <h5>Web</h5>
                 <p>harpreetparhar.com</p>
-                {/* <hr style={{borderTop: '3px solid black', width: '50%'}}/> */}
-              </Cell>
+                <hr style={{borderTop: '3px solid black', width: '50%'}}/>
+              </Cell> */} 
               <Cell  col={8}>
                 <h2>Education</h2>
                  <Education
@@ -70,6 +70,12 @@ class Resume extends React.Component {
                     endYear={2013}
                     jobName="TCIL-IT (Internship)"
                     jobDescription="Development of a mobile application for scientific unit conversion in Android App in Java"
+                    />
+                    <Experience
+                    startYear={2012}
+                    endYear={2012}
+                    jobName="NIIT (Summer-Internship)"
+                    jobDescription="Development of a web application in ASP.net"
                     />
                   <hr style={{borderTop: '3px solid black'}} />
                   <h2>Awards and Certificates</h2>

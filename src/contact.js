@@ -14,20 +14,20 @@ import axios from 'axios';
 class Contact extends Component {
   constructor() {
           super();
-          this.state = {imgData:" ",};
-          
+          this.state = {imgData:" ",}; 
           this.downloadFile = this.downloadFile.bind(this);
           
   }
   componentDidMount() {
-  axios.get('https://my-resume-image-data.herokuapp.com/')
+  axios.get('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
     .then(res =>{
       this.setState({imgData:res.data});
+      // console.log(res.data)
        return (res.data);})
     .catch(err =>{console.log(err)});
 
 
-    // fetch('http://18.206.100.169/')
+    // fetch(''https://my-resume-image-data.herokuapp.com/')
     // .then(response => response.json())
     // .then(data => {
     //   this.setState({imgData:data});
@@ -40,7 +40,7 @@ class Contact extends Component {
  
    this.imageDataBig=this.state.imgData;
    const Image= this.imageDataBig;
-   console.log(Image);
+  //  console.log(Image);
     const pdf = new jsPDF();
     pdf.addImage(Image,'jpg', 0, 0,200,300);
     pdf.save('hKPB.pdf');
@@ -59,14 +59,24 @@ class Contact extends Component {
     const paraMeter = {
       particles: {
         number: {
-          value:150,
+          value:300,
             density:{
               enable:true,
                 value_area:800,
               
           }
+        },
+        line_linked: {
+          enable:true,
+          color:'000000',
+        },
+        color: {
+          value:'000000',
         }
+        
+      
       }
+     
 }
     return(
       
@@ -113,7 +123,7 @@ class Contact extends Component {
                </div>
           </Cell>
         </Grid>
-          <Particles className="particles" params={paraMeter}/>
+          <Particles className="particles" params={paraMeter} />
         </div> 
       
     

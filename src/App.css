@@ -1,19 +1,49 @@
 .header-color{
-  background: #fc00ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background:black; 
+background: -webkit-linear-gradient(to left, #00dbde,rgb(65, 65, 104));  
+background: linear-gradient(to left,rgb(65, 65, 104),rgb(65, 65, 104)); 
+
+}
+.header-color-Link{
+  font-size: 20%;
+}
+#link1:hover {
+  color:grey;
+}
+#link2:hover {
+  color:grey;
+}
+#link3:hover {
+  color:grey;
 }
 .landing-grid{
-  background: #fc00ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #fc00ff;  
+  background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  
+  background: linear-gradient(to left, #00dbde, #fc00ff);  */
+  background:white ; 
   position: relative;
   top:0;
   left:0;
-  min-width: 75%;
+  min-width: 100%;
   min-height: 100%; 
-  text-align: center;
+  /* text-align: center; */
   margin:auto;
+  justify-content: center;
+}
+.buttonClass {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  min-height: 40%;
+  min-width:25%;
+  box-shadow: 5px 5px 15px 5px #000000; 
 }
 .about-grid{
   /* background: #fc00ff; 
@@ -75,6 +105,32 @@ margin:auto;
   align-items: center;
   
 }
+.iconSize {
+  height: 300px;
+}
+.colSet{
+  color:black;
+}
+.mainCellCircle {
+  
+  
+  border-radius: 20%; 
+  height: 150px;
+  text-align:center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow:auto;
+  box-shadow: 5px 5px 5px 5px grey; 
+  color:white;
+  background:black; 
+ background: -webkit-linear-gradient(to left, #00dbde,rgb(65, 65, 104));  
+  background: linear-gradient(to left,rgb(65, 65, 104),rgb(65, 65, 104));  
+
+}
+.mainCellCircle h6{ 
+  word-wrap: break-word;
+  font-weight: bold;}
+
 
 .about-list {
   column-count: 2;
@@ -89,18 +145,48 @@ image-set1{
   border-radius:50%;
 }
 .image-set{
-  height: 250px;
-  vertical-align: middle;
-  padding-top: 1cm;
-  border-radius: 100%;
+   
+  min-height:50%;
+  min-width: auto;
+  overflow:auto;
+  float: left;
+  background:white;
+  padding:15px;
+
   
   }
+  .image-set img {
+    height: 150px;
+    width:150px;
+    float:left;
+    border-radius: 50%;
+    shape-outside: circle(40%);
+    shape-margin: 1em; 
+}
+.image-set h6{
+  font-weight: bold;
+
+}
+ .image-set p {
+   text-align: justify;
+   line-height: 25px;
+   font-style: italic ;
+   font-weight: bold;
+  } 
+  .landing-grid hr {
+    color: rgb(65, 65, 104);
+  }
+ 
 .banner{
-  background-color: black;
-  opacity: .8;
-  min-width: 50%;
+  background: rgb(65, 65, 104);
+  min-width: 100%;
+  min-height: auto;
   margin:auto;
+  text-align: center;
   border-radius: 10px;
+  margin-top: 10%;
+  color:white;
+  margin-top: 5%;
 }
 .banner h1{
   font-size: 50px;
@@ -115,25 +201,21 @@ image-set1{
 .banner p{
   color:white;
   font-size: 20px;
-  padding: 1cm;
+  margin-left: 10%;
 }
 .main-body {
   min-height: 100%;
   min-width:100%;
-  background: #fc00ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #00dbde, #fc00ff); 
+  background:white;
 }
 .contact-body {
   margin:auto;
   position: relative;
-  min-width: 100%; 
+  width: 100%; 
   min-height:100%; 
   justify-content: center; 
   padding-top: 2cm; 
-  background: #fc00ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #00dbde, #fc00ff); 
+  background:white;
   opacity: 0.8;
   
 
@@ -146,7 +228,7 @@ image-set1{
   right:0;
   bottom: 0;
   left: 0;
-
+ 
 }
 .aboutgrid1{
   text-align: center;
@@ -160,20 +242,24 @@ image-set1{
 
 }
 .aboutcell {
-  box-shadow: 5px 5px 15px 5px grey;
-  border-radius: 10%;    
+   box-shadow: 5px 5px 5px 5px grey; 
+  border-radius: 10%;
+  color:white;   
+background:black; 
+background: -webkit-linear-gradient(to left, #00dbde,rgb(65, 65, 104));  
+background: linear-gradient(to left,rgb(65, 65, 104),rgb(65, 65, 104));  
 }
 .contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
-  color:black;
-   box-shadow: 5px 5px 15px 5px #000000;   
-  /* box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); */
+  color:black; 
   margin-bottom:30%;
-  background: #fc00ff; 
-  background: -webkit-linear-gradient(to left, #00dbde, #fc00ff); 
-  background: linear-gradient(to left, #00dbde, #fc00ff);  
+  background:white;
+  border-radius: 5%;
+  border: 2px solid rgb(65, 65, 104);
+  box-shadow: 5px 5px 15px 5px grey;
+
 }
 .iconColor {
   color:black;
@@ -183,7 +269,12 @@ image-set1{
   border-top:5px dotted black;
   width:70%;
   margin:auto;
+  
 
+}
+.contact-grid img {
+  border: 2px solid rgb(65, 65, 104);
+  box-shadow: 5px 5px 15px 5px grey;
 }
 /* .contact-grid h2{
   font-family: 'Anton', sans-serif;
@@ -194,9 +285,9 @@ image-set1{
 }
 .spring-header{
   font-size: 40px;
-  color:white;
+  color:black;
 }
 .chipShawdow {
   
-box-shadow: inset -1px 3px 8px 5px white, 2px 5px 16px 0px black, 5px 5px 15px 5px rgba(0,0,0,0);
+box-shadow: inset -1px 3px 8px 5px rgb(65, 65, 104), 2px 5px 16px 0px black, 5px 5px 15px 5px rgba(0,0,0,0);
 }

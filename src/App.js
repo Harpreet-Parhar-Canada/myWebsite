@@ -7,9 +7,11 @@ import "animate.css";
 
 class App extends React.Component {
    componentDidMount () {
-    fetch('https://my-resume-image-data.herokuapp.com/')
+    fetch('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
     .then(response => response.json())
-    .then(data => { // Prints result from `response.json()` in getRequest
+    .then(data => { 
+    console.log(data)
+
     })
     .catch(error => console.error(error))
    }
@@ -19,19 +21,19 @@ render() {
       <div>
     <div className="demo-big-content">
     <Layout>
-        <Header className ="header-color" title="Parhar" scroll >
+        <Header className ="header-color" title="Web developer" scroll>
             <Navigation >
                 <Link to="/main">Home</Link>
                 <Link to="/resume">Education</Link>
-                <Link to="/aboutme">About me</Link> 
+                 <Link to="/aboutme">Skills</Link>  
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Harpreet" className ="header-color">
             <Navigation>
                 <Link to="/main">Home </Link>
                 <Link to="/resume">Education</Link>
-                <Link to="/aboutme">About me</Link> 
+                <Link to="/aboutme">Skills </Link>  
                 <Link to="/contact">Contact</Link> 
                 </Navigation>
         </Drawer>

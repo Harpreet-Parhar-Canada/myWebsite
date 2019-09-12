@@ -7,16 +7,11 @@ class About extends React.Component {
                     <div style={{width:'100%',margin :'auto'}}>
                         <Grid className="about-grid">
                             <Cell col={12}>
-                                <div className="animated rollIn delay-1s duration-10s"> 
-                                    <h1>About Me </h1>
-                                <p className="aboutp1"> I am a Full Stack Developer who enjoys solving problems and helping other people to solve their problems. I have penchant for learning innovation and technology. My motto is "to believe in yourself and never give up". I like setting myself ambitious goals. Each day brings its own challenges and every project pushes me to find somethingmore within myself to give. I always aim a little higher than i did last tiem to ensure that i keep improving. I am highly collaborative and I enjoy working in a team environment.  </p>
-
-                                     
-                                </div>
+                                
                                 <div className="animated rollIn delay-2s duration-10s" > 
                                     <h1>Skills</h1>
                                     <Grid className="aboutgrid1">
-          <Cell col={4} className="aboutcell animated fadeIn delay-4s duration-10s" style={{background:'#00dbde'}}>
+          <Cell col={5} className="aboutcell animated fadeIn delay-4s duration-10s">
             <h4>Technical</h4>
             <p>  Python</p>
                                           <p> Flask</p>
@@ -24,22 +19,40 @@ class About extends React.Component {
                                           <p>  TDD</p>
                                           <p> Object-Oriented Programming</p>
                                           <p> SqlAlchemy</p>
+                                          <p> NodeJS</p>
+                                          <p>Express</p>
                                           <p> OpenpyXl</p>
-           
+                                           <p> Core Java</p>
            </Cell>
-          <Cell col={4} className="aboutcell animated fadeIn delay-4s duration-10s" style={{background:'#00dbde',border:'1px'}}><h4>Non-Technical</h4>
-          <p> Excellent written and communication </p>
+          <Cell col={5} className="aboutcell animated fadeIn delay-4s duration-10s" ><h4>Non-Technical</h4>
+                                         <p> Excellent written and communication </p>
                                           <p> Pair Programming</p>
                                           <p>  Agile development </p>
                                           <p>  Detail and goal-oriented </p>
           </Cell> 
+          <div className="animated rollIn delay-1s duration-10s"> 
+                                    <h1>Projects</h1>
+                                <p className="aboutp1" style={{textAlign:'center'}}> 
+                                    Webiste : https://www.harpreetparhar.com/</p>
+                                    <hr/>
+                                    <p>
+                                    Front-End :ReactJS (react-mdl),(react-particles),hooks<br/>
+                                    Back-End  :NodeJS Express </p>
+                                    <hr/><p>
+                                    Domain Name:Google Domains<br/>
+                                    Deployment:Netlify,Nelify-lambda
+
+                                </p>
+
+                                     
+                                </div>
           <div className="aboutp animated fadeIn delay-5s duration-10s" style={{ margin: 'auto',textAlign:"center"}}> 
                                     <h1>Interest</h1>
          <Grid className="aboutgrid">
-        <Cell col={2}><iframe src="https://giphy.com/embed/xT9DPzhNGA8MKjxwFG" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Reading"></iframe><h6>Reading</h6></Cell>
-        <Cell col={2}><iframe src="https://giphy.com/embed/lqSDx8SI1916ysr4eq" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Music"></iframe><h6>Listening to Music</h6></Cell>
-        <Cell col={2}><iframe src="https://giphy.com/embed/b5Hcaz7EPz26I" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen title="Cooking"></iframe><h6>Cooking</h6></Cell>
-        <Cell col={2}><iframe src="https://giphy.com/embed/12W5Sg2koWYnwA" width="100" height="100" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><h6>Computer Programming</h6></Cell>
+        <Cell col={2}><h6>Reading</h6></Cell>
+        <Cell col={2}><h6>Listening to Music</h6></Cell>
+        <Cell col={2}><h6>Cooking</h6></Cell>
+        <Cell col={2}><h6>Computer Programming</h6></Cell>
         </Grid>
                                    </div>       
                                        
