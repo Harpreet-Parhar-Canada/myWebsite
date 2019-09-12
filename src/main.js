@@ -7,15 +7,7 @@ import {github} from 'react-icons-kit/icomoon/github'
 import {mail2} from 'react-icons-kit/icomoon/mail2'
 
 class Main extends React.Component {
-   openLinkedIn() {
-        window.location.href="https://www.linkedin.com/in/harpreet-kaur-parhar/";
-    }
-    openEmail() {
-        window.location.href = "mailto:parhar994@gmail.com";
-    }
-    openGithub() {
-        window.location.href="https://github.com/Harpreet-Parhar-Canada";
-    }
+
      
     render() {
       
@@ -24,9 +16,9 @@ class Main extends React.Component {
                 <Tech/>
                     <div className="banner">                         
                             <Grid className="aboutgrid">
-                                <Cell col={2}><Icon icon={linkedin2} size={32} onClick={this.openLinkedIn} id="link1"/><h6>LinkedIn</h6></Cell>
-                                    <Cell col={2}><Icon icon={mail2} size={32} onClick={this.openEmail} id="link2"/><h6>parhar994@gmail.com</h6></Cell>
-                                        <Cell col={2}><Icon icon={github} size={32} onClick={this.openGithub} id="link3"/><h6>Github</h6></Cell>
+                                <Cell col={2}> <a href = "https://www.linkedin.com/in/harpreet-kaur-parhar/" target="_blank" rel="noopener noreferrer"><Icon icon={linkedin2} size={32} id="link1"/>LinkedIn</a></Cell>
+                                    <Cell col={2}><a href ="mailto:parhar994@gmail.com ?" ><Icon icon={mail2} size={32}  id="link2"/>parhar994@gmail.com</a></Cell>
+                                        <Cell col={2}> <a href ="https://github.com/Harpreet-Parhar-Canada" ><Icon icon={github} size={32} id="link3"/>Github</a></Cell>
                             </Grid>                                                      
                     </div>
             </div>
