@@ -217,9 +217,13 @@ image-set1{
   padding-top: 2cm; 
   background:white;
   opacity: 0.8;
+
+}
+.aboutcell hr {
+  border-top:2px solid rgb(65, 65, 104);
+  width:auto;
+  margin:auto;
   
-
-
 }
 .particles{
   position: fixed;
@@ -244,10 +248,11 @@ image-set1{
 .aboutcell {
    box-shadow: 5px 5px 5px 5px grey; 
   border-radius: 10%;
-  color:white;   
-background:black; 
+  color:rgb(65, 65, 104);   
+  border:5px solid rgb(65, 65, 104);
+/* background:black; 
 background: -webkit-linear-gradient(to left, #00dbde,rgb(65, 65, 104));  
-background: linear-gradient(to left,rgb(65, 65, 104),rgb(65, 65, 104));  
+background: linear-gradient(to left,rgb(65, 65, 104),rgb(65, 65, 104));   */
 }
 .contact-grid {
   text-align: center;
