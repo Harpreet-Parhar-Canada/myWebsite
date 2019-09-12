@@ -10,7 +10,7 @@ class App extends React.Component {
     fetch('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
     .then(response => response.json())
     .then(data => { 
-    console.log(data)
+    // console.log(data)
 
     })
     .catch(error => console.error(error))

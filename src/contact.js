@@ -22,7 +22,7 @@ class Contact extends Component {
   axios.get('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
     .then(res =>{
       this.setState({imgData:res.data});
-      // console.log(res.data)
+      console.log(res.data)
        return (res.data);})
     .catch(err =>{console.log(err)});
 
