@@ -18,7 +18,7 @@ class Main extends React.Component {
                             <Grid className="aboutgrid">
                                 <Cell col={2}> <a href = "https://www.linkedin.com/in/harpreet-kaur-parhar/" target="_blank" rel="noopener noreferrer"><Icon icon={linkedin2} size={32} id="link1"/>LinkedIn</a></Cell>
                                     <Cell col={2}><a href ="mailto:parhar994@gmail.com ?" ><Icon icon={mail2} size={32}  id="link2"/>parhar994@gmail.com</a></Cell>
-                                        <Cell col={2}> <a href ="https://github.com/Harpreet-Parhar-Canada" ><Icon icon={github} size={32} id="link3"/>Github</a></Cell>
+                                        <Cell col={2}> <a href ="https://github.com/Harpreet-Parhar-Canada" target="_blank" rel="noopener noreferrer" ><Icon icon={github} size={32} id="link3"/>Github</a></Cell>
                             </Grid>                                                      
                     </div>
             </div>
