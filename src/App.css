@@ -7,6 +7,15 @@ color:white;
 .header-color-Link{
   font-size: 20%;
 }
+#link1{
+  color:white;
+}
+#link2 {
+  color:white;
+}
+#link3 {
+  color:white;
+}
 #link1:hover {
   color:grey;
 }
