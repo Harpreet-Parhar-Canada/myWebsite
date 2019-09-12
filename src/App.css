@@ -2,7 +2,7 @@
 background:black; 
 background: -webkit-linear-gradient(to left, #00dbde,rgb(65, 65, 104));  
 background: linear-gradient(to left,rgb(65, 65, 104),rgb(65, 65, 104)); 
-
+color:white;
 }
 .header-color-Link{
   font-size: 20%;
