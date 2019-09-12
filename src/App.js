@@ -6,15 +6,15 @@ import './App.css';
 import "animate.css";
 
 class App extends React.Component {
-   componentDidMount () {
-    fetch('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
-    .then(response => response.json())
-    .then(data => { 
-    // console.log(data)
+//    componentDidMount () {
+//     fetch('https://objective-shockley-7570e9.netlify.com/.netlify/functions/api/')
+//     .then(response => response.json())
+//     .then(data => { 
+//     // console.log(data)
 
-    })
-    .catch(error => console.error(error))
-   }
+//     })
+//     .catch(error => console.error(error))
+//    }
     
 render() {
   return (
