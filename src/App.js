@@ -14,7 +14,7 @@ render() {
     <Layout>
         <Header className ="header-color" title="Web developer" scroll>
             <Navigation >
-                <Link to="/main">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/resume">Education</Link>
                  <Link to="/aboutme">Skills</Link>  
                 <Link to="/contact">Contact</Link>
@@ -22,7 +22,7 @@ render() {
         </Header>
         <Drawer title="Harpreet" className ="header-color">
             <Navigation>
-                <Link to="/main">Home </Link>
+                <Link to="/">Home </Link>
                 <Link to="/resume">Education</Link>
                 <Link to="/aboutme">Skills </Link>  
                 <Link to="/contact">Contact</Link> 
