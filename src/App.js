@@ -1,7 +1,7 @@
 import React from 'react';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
 import Home from './home';
-import {Link} from 'react-router-dom';
+import {Link,BrowserRouter} from 'react-router-dom';
 import './App.css';
 import "animate.css";
 
@@ -9,6 +9,7 @@ class App extends React.Component {
     
 render() {
   return (
+      <BrowserRouter>
       <div>
     <div className="demo-big-content">
     <Layout>
@@ -36,7 +37,8 @@ render() {
    
 </div> 
     
-</div> );
+</div>
+</BrowserRouter> );
 }
 }
 
