@@ -22,7 +22,7 @@ render() {
             </Navigation>
         </Header>
         <Drawer title="Harpreet" className ="header-color">
-            <Navigation>
+              <Navigation>
                 <Link to="/">Home </Link>
                 <Link to="/resume">Education</Link>
                 <Link to="/aboutme">Skills </Link>  
